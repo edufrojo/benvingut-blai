@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap");
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.titulo {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 2.3em;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#lista-articulos,
+#contacto,
+#portada {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  margin-bottom: 100px;
+}
+
+.logo {
+  height: auto;
+  width: 275px;
+  margin-top: 50px;
+}
+
+.articulo {
+  position: relative;
+  padding: 40px;
+}
+
+.articulo__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.articulo__precio {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.articulo__imagen {
+  height: 200px;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.articulo__reserva {
+  position: relative;
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  bottom: 180px;
+  font-size: 2em;
+  padding: 0 10px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  transform: rotate(-40deg);
+}
+
+#contacto p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+@media all and (min-width: 40em) {
+  .articulo {
+    width: 33%;
+  }
+}
+@media all and (min-width: 60em) {
+  .articulo {
+    width: 25%;
+  }
+}

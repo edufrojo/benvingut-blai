@@ -1,0 +1,176 @@
+  const articulos = [
+    {
+      "Nombre": "Mochila ergobaby (oxfort blue)",
+      "Precio": "0€",
+      "Imagen": "https://senderela.es/1491-large_default/primera-puesta-gorrito-alfa.jpg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Trona Safety 1st TIMBA fusta natural	+ coixir",
+      "Precio": "0€",
+      "Imagen": "https://image.windeln.de/windeln-media/e0/b9/a3/12/597b40ee8799e80712a3b9e0.500x426.jpg",
+      "Reserva": "1"  
+    },
+    {
+      "Nombre": "Carro peg perego ypsi",
+      "Precio": "0€",
+      "Imagen": "https://www.elplanetadelbebe.com/11924-big_default_2x/trona-mila-con-reductor-t82-cosmos-jane.jpg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Gancho para colgar en cochecito ",
+      "Precio": "6.95€",
+      "Imagen": "https://mk0bebexpertcoml3c2i.kinstacdn.com/wp-content/uploads/2020/03/cochecito-trio-vintage-xt-match-3-playxtrem.jpg.webp",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Kaloo DOUDOU (osito gris)",
+      "Precio": "0€",
+      "Imagen": "https://www.crioh.com/79956-large_default/doudou-conejo-kaloo-perle-azul.jpg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Muselina bambú L",
+      "Precio": "9.50€",
+      "Imagen": "https://cascabelbebe.es/1535-large_default/muselina-120x120-gatito-don-algodon.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Muselina bambú XL",
+      "Precio": "12.90€",
+      "Imagen": "https://infantdeco.es/wp-content/uploads/2019/09/capa-de-bano-jirafa-mint-de-zoocchini936827.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Capa de baño",
+      "Precio": "19.95€",
+      "Imagen": "https://www.tinylove.com/media/catalog/product/cache/2/small_image/252x162/17f82f742ffe127f42dca9de82fb58b1/i/n/into_the_forrest_gymini_delux_1920x1080_tiny080517n_0528_1.jpg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Gimnasio/manta actividadesMOLTO 120x120",
+      "Precio": "0€",
+      "Imagen": "https://infantdeco.es/wp-content/uploads/2020/01/saco-buba-rayas-beige2-600x600.jpg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Saco silla",
+      "Precio": "59.90€",
+      "Imagen": "https://infantdeco.es/wp-content/uploads/2020/01/manta-punto-fox-rayas2-600x600.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Arrullo",
+      "Precio": "25€",
+      "Imagen": "https://www.puericulturalara.com/tienda/29385-large_default/bolso-mum-rayas-beige.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Comoda ROS element blanca - Gris",
+      "Precio": "0€",
+      "Imagen": "https://infantdeco.es/wp-content/uploads/2020/01/neceser-mum-rayas-beige2-600x600.jpg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Funda cambiador PETITPRAIA PARTY 80cm",
+      "Precio": "17.50€",
+      "Imagen": "https://www.bebetes.es/bebetes_image/products%252FALI0123%252Fextras%252Fextra1.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Cuna ROS element blanca 70X140",
+      "Precio": "19.90€",
+      "Imagen": "https://www.brickone.it/wp-content/uploads/2020/05/DC3650_Balena_Doudou.jpg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Colchón cuna70X140",
+      "Precio": "96€",
+      "Imagen": "https://www.textilhogartienda.com/server/Portal_0031169/img/products/cambiador-acolchado-y-impermeable-con-medidor-estrellas70cms_9355230_xxl.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Funda colchón cuna70X140",
+      "Precio": "12.90€",
+      "Imagen": "https://www.compramejor.es/wp-content/plugins/aawp/public/image.php?url=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvMzFVZFVwRWJpcEwuanBn",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Relleno nórdico PETITPRAIA 70x140",
+      "Precio": "30€",
+      "Imagen": "https://www.lacunademibebe.com/24706-large_default/vestidura-para-minicuna-colecho-indian-en-algodon-organico.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Protector cuna PETITPRAIA PARTY 70x140",
+      "Precio": "59€",
+      "Imagen": "https://www.lacunademibebe.com/24768-thickbox_default/juego-sabanas-para-bebe-dinos-en-algodon-suave.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Funda nordica PETITPRAIA  PARTY 70X140",
+      "Precio": "64",
+      "Imagen": "https://media.las4lunas.es/product/hamaca-balance-soft-babybjorn-cotton-800x800.jpeg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Funda nórdica bimbidrems Cool Zoo 70X140 ",
+      "Precio": "49.80",
+      "Imagen": "https://media.las4lunas.es/product/hamaca-balance-soft-babybjorn-cotton-800x800.jpeg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Mini cuna colecho JANÉ COSMOS T-82",
+      "Precio": "199€",
+      "Imagen": "https://probebe.pt/wp-content/uploads/2018/01/IMG_20180117_170544.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Juego sabanas minicuna",
+      "Precio": "16.50€",
+      "Imagen": "https://elultimokoala.com/17950-thickbox_default/bandanas-bebe-bambu-timboo.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Juego sabanas minicuna",
+      "Precio": "25€",
+      "Imagen": "https://chollosbebe.es/WebRoot/Store24/Shops/6e872a3f-82ab-4707-96da-4f3eebe4bc10/5C1C/0ECB/57C5/347B/7AC5/0A48/355B/0443/29050413_ml.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Hamaca JANÉ COSMO",
+      "Precio": "89€",
+      "Imagen": "https://static1.latiendademama.es/150132/jane-vigilabebe-sincro-screen-plus-43.jpg",
+      "Reserva": "1"
+    },
+    {
+      "Nombre": "Set higiene ",
+      "Precio": "18.95€",
+      "Imagen": "https://images-na.ssl-images-amazon.com/images/I/41UcmwNhMAL._AC_.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Conjunto primera puesta BOBOLI ballena",
+      "Precio": "0€",
+      "Imagen": "https://www.dulcebebesoletes.com/bmz_cache/a/silla-de-auto-revol-fix-xl-rock-playxtrem-1000x1000.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Babitas pack dos indian",
+      "Precio": "11€",
+      "Imagen": "https://www.dulcebebesoletes.com/bmz_cache/a/silla-de-auto-revol-fix-xl-rock-playxtrem-1000x1000.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Babitas bambu blau clar ",
+      "Precio": "5€",
+      "Imagen": "https://www.dulcebebesoletes.com/bmz_cache/a/silla-de-auto-revol-fix-xl-rock-playxtrem-1000x1000.jpg",
+      "Reserva": "0"
+    },
+    {
+      "Nombre": "Cambiador portatil",
+      "Precio": "16€",
+      "Imagen": "https://www.dulcebebesoletes.com/bmz_cache/a/silla-de-auto-revol-fix-xl-rock-playxtrem-1000x1000.jpg",
+      "Reserva": "0"
+    }
+  ]
