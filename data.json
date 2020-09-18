@@ -1,19 +1,19 @@
   const articulos = [
     {
       "Nombre": "Mochila ergobaby (oxfort blue)",
-      "Precio": "0€",
+      "Precio": "",
       "Imagen": "https://senderela.es/1491-large_default/primera-puesta-gorrito-alfa.jpg",
       "Reserva": "1"
     },
     {
       "Nombre": "Trona Safety 1st TIMBA fusta natural	+ coixir",
-      "Precio": "0€",
+      "Precio": "",
       "Imagen": "https://image.windeln.de/windeln-media/e0/b9/a3/12/597b40ee8799e80712a3b9e0.500x426.jpg",
       "Reserva": "1"  
     },
     {
       "Nombre": "Carro peg perego ypsi",
-      "Precio": "0€",
+      "Precio": "",
       "Imagen": "https://www.elplanetadelbebe.com/11924-big_default_2x/trona-mila-con-reductor-t82-cosmos-jane.jpg",
       "Reserva": "1"
     },
@@ -25,7 +25,7 @@
     },
     {
       "Nombre": "Kaloo DOUDOU (osito gris)",
-      "Precio": "0€",
+      "Precio": "",
       "Imagen": "https://www.crioh.com/79956-large_default/doudou-conejo-kaloo-perle-azul.jpg",
       "Reserva": "1"
     },
@@ -45,11 +45,11 @@
       "Nombre": "Capa de baño",
       "Precio": "19.95€",
       "Imagen": "https://www.tinylove.com/media/catalog/product/cache/2/small_image/252x162/17f82f742ffe127f42dca9de82fb58b1/i/n/into_the_forrest_gymini_delux_1920x1080_tiny080517n_0528_1.jpg",
-      "Reserva": "1"
+      "Reserva": "0"
     },
     {
       "Nombre": "Gimnasio/manta actividadesMOLTO 120x120",
-      "Precio": "0€",
+      "Precio": "",
       "Imagen": "https://infantdeco.es/wp-content/uploads/2020/01/saco-buba-rayas-beige2-600x600.jpg",
       "Reserva": "1"
     },
@@ -67,7 +67,7 @@
     },
     {
       "Nombre": "Comoda ROS element blanca - Gris",
-      "Precio": "0€",
+      "Precio": "",
       "Imagen": "https://infantdeco.es/wp-content/uploads/2020/01/neceser-mum-rayas-beige2-600x600.jpg",
       "Reserva": "1"
     },
@@ -79,7 +79,7 @@
     },
     {
       "Nombre": "Cuna ROS element blanca 70X140",
-      "Precio": "19.90€",
+      "Precio": "",
       "Imagen": "https://www.brickone.it/wp-content/uploads/2020/05/DC3650_Balena_Doudou.jpg",
       "Reserva": "1"
     },
@@ -109,13 +109,13 @@
     },
     {
       "Nombre": "Funda nordica PETITPRAIA  PARTY 70X140",
-      "Precio": "64",
+      "Precio": "64€",
       "Imagen": "https://media.las4lunas.es/product/hamaca-balance-soft-babybjorn-cotton-800x800.jpeg",
       "Reserva": "0"
     },
     {
       "Nombre": "Funda nórdica bimbidrems Cool Zoo 70X140 ",
-      "Precio": "49.80",
+      "Precio": "",
       "Imagen": "https://media.las4lunas.es/product/hamaca-balance-soft-babybjorn-cotton-800x800.jpeg",
       "Reserva": "1"
     },
@@ -139,7 +139,7 @@
     },
     {
       "Nombre": "Hamaca JANÉ COSMO",
-      "Precio": "89€",
+      "Precio": "",
       "Imagen": "https://static1.latiendademama.es/150132/jane-vigilabebe-sincro-screen-plus-43.jpg",
       "Reserva": "1"
     },
@@ -151,9 +151,9 @@
     },
     {
       "Nombre": "Conjunto primera puesta BOBOLI ballena",
-      "Precio": "0€",
+      "Precio": "",
       "Imagen": "https://www.dulcebebesoletes.com/bmz_cache/a/silla-de-auto-revol-fix-xl-rock-playxtrem-1000x1000.jpg",
-      "Reserva": "0"
+      "Reserva": "1"
     },
     {
       "Nombre": "Babitas pack dos indian",
