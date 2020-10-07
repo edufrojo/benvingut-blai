@@ -37,7 +37,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  margin: 40px;
 }
 
 .articulo__titulo {
@@ -69,7 +69,7 @@
   right: 0;
   text-align: center;
   max-width: 200px;
-  top: 125px;
+  top: 80px;
   font-size: 2em;
   padding: 0 10px;
   color: white;
