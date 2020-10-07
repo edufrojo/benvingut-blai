@@ -18,8 +18,6 @@ for (let i = 0; i < listArt.length; i++) {
       listArt[i].Imagen +
       '" alt="" /><h3 class="articulo__titulo">' +
       listArt[i].Nombre +
-      '</h3><div class="articulo__precio">' +
-      listArt[i].Precio +
-      "</div>";
+      "</h3></div>";
   }
 }
