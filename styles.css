@@ -1,5 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap");
 
+body {
+  margin: 0;
+}
+
+#portada,
+#lista,
+#lista-articulos,
+#contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+}
+
+#portada,
+#lista-articulos {
+  margin-bottom: 50px;
+}
+
+#lista {
+  background-color: rgb(238, 238, 238);
+}
+
+#contacto {
+  background-color: lightgoldenrodyellow;
+}
+
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -12,19 +40,6 @@
   font-weight: 400;
   font-size: 3em;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-#lista-articulos,
-#contacto,
-#portada {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
-  margin-bottom: 100px;
 }
 
 .logo {
@@ -41,10 +56,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 30px;
+  background-color: white;
 }
 
 .articulo:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.2);
 }
 
 .articulo__imagen {
