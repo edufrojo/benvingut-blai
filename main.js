@@ -9,9 +9,9 @@ for (let i = 0; i < listArt.length; i++) {
       listArt[i].Imagen +
       '" alt="" /><h3 class="articulo__titulo">' +
       listArt[i].Nombre +
-      '</h3><div class="articulo__precio">' +
+      '</h3><div class="articulo__precio"><span>' +
       listArt[i].Precio +
-      "</div></div>";
+      "</span></div></div>";
   } else {
     contenedor.innerHTML +=
       '<div class="articulo"><div class="articulo__reserva">RESERVADO</div><img class="articulo__imagen" src="' +

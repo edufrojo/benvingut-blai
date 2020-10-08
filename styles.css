@@ -89,6 +89,14 @@
   margin-top: auto;
 }
 
+.articulo__precio span {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
 #contacto p {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
