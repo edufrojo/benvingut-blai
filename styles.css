@@ -181,11 +181,18 @@ footer .left i {
   padding-right: 5px;
 }
 
+@media (max-width: 579px) {
+  .contacto__mapa {
+    width: 100%;
+    padding: 0px;
+  }
+}
 @media all and (min-width: 40em) {
   .articulo {
     width: 33%;
   }
 }
+
 @media all and (min-width: 60em) {
   .articulo {
     width: 25%;
