@@ -33,14 +33,6 @@ p {
   background-color: rgb(238, 238, 238);
 }
 
-#contacto {
-  background-color: lightgoldenrodyellow;
-}
-
-#contacto i {
-  padding-right: 10px;
-}
-
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -128,6 +120,40 @@ p {
   padding: 5px 10px;
   font-weight: bold;
   border-radius: 10px;
+}
+
+#contacto {
+  background-color: lightgoldenrodyellow;
+}
+
+.contacto__secciones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.contacto__datos {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contacto__mapa {
+  height: 300px;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contacto__mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#contacto i {
+  padding-right: 10px;
 }
 
 footer {
