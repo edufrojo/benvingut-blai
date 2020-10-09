@@ -14,7 +14,7 @@ for (let i = 0; i < listArt.length; i++) {
       "</span></div></div>";
   } else {
     contenedor.innerHTML +=
-      '<div class="articulo"><div class="articulo__reserva">RESERVAT!</div><img class="articulo__imagen" src="' +
+      '<div class="articulo"><div class="articulo__reserva">¡RESERVAT!</div><img class="articulo__imagen" src="' +
       listArt[i].Imagen +
       '" alt="" /><h3 class="articulo__titulo">' +
       listArt[i].Nombre +
