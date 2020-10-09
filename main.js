@@ -14,10 +14,10 @@ for (let i = 0; i < listArt.length; i++) {
       "</span></div></div>";
   } else {
     contenedor.innerHTML +=
-      '<div class="articulo"><div class="articulo__reserva">RESERVADO</div><img class="articulo__imagen" src="' +
+      '<div class="articulo"><div class="articulo__reserva">RESERVAT!</div><img class="articulo__imagen" src="' +
       listArt[i].Imagen +
       '" alt="" /><h3 class="articulo__titulo">' +
       listArt[i].Nombre +
-      "</h3></div>";
+      "</h3><div class='articulo__precio'><i class='em em-heart_eyes' aria-role='presentation' aria-label='SMILING FACE WITH HEART-SHAPED EYES'></i></div></div>";
   }
 }
