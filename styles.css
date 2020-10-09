@@ -66,7 +66,6 @@ p {
 
 .articulo:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  transform: scale(1.1);
 }
 
 .articulo__imagen {
@@ -152,8 +151,31 @@ p {
   height: 100%;
 }
 
-#contacto i {
+#contacto .contacto__datos i {
   padding-right: 10px;
+}
+
+#contacto .boton__flotante {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  transition: 0.3s;
+}
+
+#contacto .boton__flotante:hover {
+  transform: scale(1.2);
+}
+
+#contacto .icono__flotante {
+  margin-top: 15px;
+  font-size: 2em;
 }
 
 footer {
